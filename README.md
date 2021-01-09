@@ -1,3 +1,7 @@
+# Chris Bortel Portfolio
+
+## Deployed to [netlify](https://5ffa3a5f10a438cb19c916cc--clever-goodall-577718.netlify.app/)
+
 # gatsby-starter-prologue
 
 Gatsby.js V2 starter template based on Prologue by HTML5 UP
@@ -72,7 +76,7 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 - [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)
 - [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
 - [gatsby-starter-solidstate](https://github.com/anubhavsrivastava/gatsby-starter-solidstate)
-- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly) 
+- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly)
 - [gatsby-starter-phantom](https://github.com/anubhavsrivastava/gatsby-starter-phantom)
 - [gatsby-starter-paradigmshift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
 - [gatsby-starter-overflow](https://github.com/anubhavsrivastava/gatsby-starter-overflow)
