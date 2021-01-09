@@ -4,11 +4,11 @@
   "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
+    "url": "git+https://github.com/Chris-Bortel-401-advanced-javascript/gatsby-portfolio.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Chris Bortel",
+    "email": "bortelcc19@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
