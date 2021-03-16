@@ -90,10 +90,10 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="" className="image fit">
-                  <img src={pic4} alt="" />
+                  <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Munchkin</h3>
                 </header>
               </article>
 
