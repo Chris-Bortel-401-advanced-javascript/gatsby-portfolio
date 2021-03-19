@@ -16,16 +16,12 @@ module.exports = {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/Chris-Bortel',
+      target: '_blank',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/bortel_chris',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://www.facebook.com/chris.c.bortel/',
     },
     {
       icon: 'fa-envelope-o',

@@ -90,10 +90,10 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="" className="image fit">
-                  <img src={pic4} alt="" />
+                  <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Munchkin</h3>
                 </header>
               </article>
 
@@ -143,15 +143,21 @@ const IndexPage = () => (
           <a href="/#" className="image featured">
             <img src={pic8} alt="" />
           </a>
-
+          {/* TODO: Needs revisions, I really dislike the way that the text is justified*/}
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            My name is Chris Bortel and I am a software developer based in
+            Seattle. Previously, I worked in special education and most recently
+            managed a classroom and curriculum of ten students. - This
+            experience gave me a love of creating something from the ground up.
+            - Leading a group of students was hard work, but being able to look
+            back and see how much growth I enabled was so rewarding. - I helped
+            build something really special. - I have a desire to build things
+            that are special and provide a meaningful service. This led me to
+            software development. - a path that allows me to continue learning
+            and problem solving. - I am excited to pair my past experiences
+            working in education to build intuitive software and in doing so
+            continue providing positive outcomes to all people that I have the
+            pleasure of working for and with.
           </p>
         </div>
       </section>
