@@ -10,6 +10,7 @@ module.exports = {
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Chris Bortel',
   heading: 'Software Developer',
+  resume: 'Bortel Resume',
   // social
   socialLinks: [
     {

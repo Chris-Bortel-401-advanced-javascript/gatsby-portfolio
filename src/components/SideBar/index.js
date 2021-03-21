@@ -20,6 +20,8 @@ export default function SideBar({ sections = [] }) {
             avatar={pic}
             title={config.authorName}
             heading={config.heading}
+            //  change font size
+            resume={config.resume}
           />
           <Nav sections={sections} />
         </div>

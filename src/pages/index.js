@@ -72,39 +72,17 @@ const IndexPage = () => (
                   <h3>Haggle</h3>
                 </header>
               </article>
-
-              {/* <article className="item">
-                <a
-                  href="https://github.com/301-MRCD/301-final-project"
-                  className="image fit"
-                  target="_blank"
-                >
-                  <img src={pic3} alt="" />
-                </a>
-                <header>
-                  <h3>Dog Park App</h3>
-                </header>
-              </article> */}
             </div>
 
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="" className="image fit">
-                  <img src={pic3} alt="" />
+                  <img src={pic3} alt="bortel-shop.jpg" />
                 </a>
                 <header>
-                  <h3>Munchkin</h3>
+                  <h3>Bortel Shop</h3>
                 </header>
               </article>
-
-              {/* <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
-                </header>
-              </article> */}
             </div>
 
             <div className="col-4 col-12-mobile">
@@ -120,15 +98,6 @@ const IndexPage = () => (
                   <h3>Dog Park App</h3>
                 </header>
               </article>
-
-              {/* <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article> */}
             </div>
           </div>
         </div>
