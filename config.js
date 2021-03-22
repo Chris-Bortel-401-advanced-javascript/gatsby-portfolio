@@ -18,17 +18,20 @@ module.exports = {
       name: 'Github',
       url: 'https://github.com/Chris-Bortel',
       target: '_blank',
+      rel: 'noreferrer',
     },
     {
       icon: 'fa-linkedin',
       name: 'Github',
       url: 'https://www.linkedin.com/in/chris-bortel/',
       target: '_blank',
+      rel: 'noreferrer',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
       url: 'mailto:bortelcc@gmail.com',
+      rel: 'noreferrer',
     },
   ],
 };
