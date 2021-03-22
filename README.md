@@ -2,7 +2,7 @@
 
 ## Deployed to [netlify](https://5ffa3a5f10a438cb19c916cc--clever-goodall-577718.netlify.app/)
 
-# gatsby-starter-prologue
+<!-- # gatsby-starter-prologue
 
 Gatsby.js V2 starter template based on Prologue by HTML5 UP
 
@@ -99,4 +99,4 @@ Please create issue or open PR request for contribution.
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
 
-refer `LICENSE` file in this repository.
+refer `LICENSE` file in this repository. -->
