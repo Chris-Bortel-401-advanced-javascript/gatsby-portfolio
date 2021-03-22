@@ -5,11 +5,7 @@ import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic3 from '../assets/images/pic03.gif';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
@@ -29,7 +25,7 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Chris</strong>
+              <strong>Chris Bortel</strong>
               <br />
               Software developer
             </h2>
@@ -49,15 +45,25 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+            <h2>Portfolio and Resume</h2>
           </header>
 
           <p>
-            An educator pursuing a career in software development to positively
-            affect a larger group of people, while focusing on the importance of
-            family and community
+            My name is Chris Bortel and I am a full stack JavaScript software
+            developer based in Seattle with a background working in special
+            education(more information on that to come later).
+            <br />
+            <br />
+            Trained at Code Fellows, a ten month intensive software development
+            program. Previously studied at the University of Washington's full
+            stack JS web development bootcamp.
+            <br />
+            <br />
+            Please click on the below images to be taken to their corresponding
+            github repositories and resume pdf.
           </p>
 
+          {/* TODO: Add padding to the titles of the cards */}
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
@@ -85,6 +91,7 @@ const IndexPage = () => (
               </article>
             </div>
 
+            {/* TODO: add picture and like of my resume */}
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
@@ -95,7 +102,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Dog Park App</h3>
+                  <h3>Resume</h3>
                 </header>
               </article>
             </div>
@@ -114,19 +121,27 @@ const IndexPage = () => (
           </a>
           {/* TODO: Needs revisions, I really dislike the way that the text is justified*/}
           <p>
-            My name is Chris Bortel and I am a software developer based in
-            Seattle. Previously, I worked in special education and most recently
-            managed a classroom and curriculum of ten students. - This
-            experience gave me a love of creating something from the ground up.
-            - Leading a group of students was hard work, but being able to look
-            back and see how much growth I enabled was so rewarding. - I helped
-            build something really special. - I have a desire to build things
-            that are special and provide a meaningful service. This led me to
-            software development. - a path that allows me to continue learning
-            and problem solving. - I am excited to pair my past experiences
-            working in education to build intuitive software and in doing so
-            continue providing positive outcomes to all people that I have the
-            pleasure of working for and with.
+            As mentioned several times before, I am a software developer, but I
+            am also a surfer, ocean enthusiast, cyclist, amateur woodworker, a
+            dog dad, a husband, and loyal to a fault.
+            <br />
+            <br />
+            Prior to software development, I worked in special education and
+            most recently managed a classroom and the curriculum of ten
+            students. Working within a team, I helped develop strategies and
+            response plans to provide the best services for students and the
+            families that I worked with. What I appreciated about this job was
+            that at the beginning of the school year, we would meet the students
+            where they were at and then build up their skills in order to meet
+            goals that were agreed upon by the team and the parents.
+            <br />
+            <br />
+            That kind of growth mentality is what I enjoy about software
+            development. Being able to see the progress made over months of
+            planning and execution is something that excited me while working in
+            public schools and drives me forward in the field of software
+            development. I strive to make any project that I work on better than
+            what I started with.
           </p>
         </div>
       </section>
