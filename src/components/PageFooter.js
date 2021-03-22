@@ -5,9 +5,6 @@ export default function PageFooter() {
     <div id="footer">
       <ul className="copyright">
         <li>Copyright &copy; Chris Bortel {new Date().getFullYear()}</li>
-        <li>
-          <a href="http://unsplash.com/">Resume</a>
-        </li>
       </ul>
     </div>
   );
