@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: `/chris-bortel/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Chris Bortel',
   heading: 'Software Developer',
-  resume: 'Bortel Resume',
+  resume: 'Resume',
   // social
   socialLinks: [
     {
@@ -18,16 +18,20 @@ module.exports = {
       name: 'Github',
       url: 'https://github.com/Chris-Bortel',
       target: '_blank',
+      rel: 'noreferrer',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/bortel_chris',
+      icon: 'fa-linkedin',
+      name: 'Github',
+      url: 'https://www.linkedin.com/in/chris-bortel/',
+      target: '_blank',
+      rel: 'noreferrer',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
       url: 'mailto:bortelcc@gmail.com',
+      rel: 'noreferrer',
     },
   ],
 };

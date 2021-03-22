@@ -71,22 +71,46 @@ const IndexPage = () => (
                   href="https://github.com/Team-TDD"
                   className="image fit"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Haggle</h3>
+                  <a
+                    href="https://github.com/Team-TDD"
+                    alt="Github Repo"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3>Haggle</h3>
+                  </a>
+                  <p>Backend CLI Based Crud application</p>
                 </header>
               </article>
             </div>
 
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="" className="image fit">
+                <a
+                  href="https://github.com/Chris-Bortel-401-advanced-javascript/bortel-shop"
+                  alt="Link to Bortel's Shop Github Repo"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="image fit"
+                >
                   <img src={pic3} alt="bortel-shop.jpg" />
                 </a>
                 <header>
-                  <h3>Bortel Shop</h3>
+                  {/* TODO: add: fullstack crud application --> Add button for a module */}
+                  <a
+                    href="https://github.com/Chris-Bortel-401-advanced-javascript/bortel-shop"
+                    alt="Github Repo"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3>Bortel Shop</h3>
+                  </a>
+                  <p>Fullstack Crud Application</p>
                 </header>
               </article>
             </div>
