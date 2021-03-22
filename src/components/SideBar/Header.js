@@ -12,7 +12,7 @@ export default function Footer({ title, heading, avatar, resume }) {
         <h1 id="title">{title}</h1>
         <p>{heading}</p>
         <a href="" target="_blank">
-          {resume}
+          <p style={{ fontSize: '.7em' }}>{resume}</p>
         </a>
       </Link>
     </div>
