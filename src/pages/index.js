@@ -49,18 +49,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            My name is Chris Bortel and I am a full stack JavaScript software
-            developer based in Seattle with a background working in special
-            education(more information on that to come later).
-            <br />
-            <br />
-            Trained at Code Fellows, a ten month intensive software development
-            program. Previously studied at the University of Washington's full
-            stack JS web development bootcamp.
-            <br />
-            <br />
             Please click on the below images to be taken to their corresponding
-            github repositories and resume pdf.
+            github repositories.
           </p>
 
           {/* TODO: Add padding to the titles of the cards */}
@@ -145,27 +135,27 @@ const IndexPage = () => (
           </a>
           {/* TODO: Needs revisions, I really dislike the way that the text is justified*/}
           <p>
-            As mentioned several times before, I am a software developer, but I
-            am also a surfer, ocean enthusiast, cyclist, amateur woodworker, a
-            dog dad, a husband, and loyal to a fault.
+            I am a full stack JavaScript software developer based in Seattle,
+            WA. As a graduate of Code Fellows’ intensive software development
+            program and the University of Washington’s full stack JS web
+            development bootcamp, I strive to build innovative software with a
+            meaningful purpose.
             <br />
             <br />
-            Prior to software development, I worked in special education and
-            most recently managed a classroom and the curriculum of ten
-            students. Working within a team, I helped develop strategies and
-            response plans to provide the best services for students and the
-            families that I worked with. What I appreciated about this job was
-            that at the beginning of the school year, we would meet the students
-            where they were at and then build up their skills in order to meet
-            goals that were agreed upon by the team and the parents.
+            My professional career began in special education, where I managed a
+            classroom and the curriculum of ten students. I helped to develop
+            strategies and response plans to provide the best services and
+            solutions for students and the families I worked with, setting and
+            achieving goals that benefitted all involved. That kind of growth
+            mentality is what I enjoy about software development. Being able to
+            see the progress made over months of planning and execution is
+            something that excited me while working in public schools, and
+            drives me forward in the field of software development. I strive to
+            make any project that I work on better than what I started with.
             <br />
             <br />
-            That kind of growth mentality is what I enjoy about software
-            development. Being able to see the progress made over months of
-            planning and execution is something that excited me while working in
-            public schools and drives me forward in the field of software
-            development. I strive to make any project that I work on better than
-            what I started with.
+            In my spare time, I like to surf, cycle, develop my amateur
+            woodworking skills, and hang out with my wife and dog.
           </p>
         </div>
       </section>
