@@ -5,7 +5,7 @@ import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.gif';
+import pic3 from '../assets/images/pic03.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
@@ -92,7 +92,7 @@ const IndexPage = () => (
             </div>
 
             {/* TODO: add picture and like of my resume */}
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
                   href="https://github.com/301-MRCD/301-final-project"
@@ -105,7 +105,7 @@ const IndexPage = () => (
                   <h3>Resume</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
