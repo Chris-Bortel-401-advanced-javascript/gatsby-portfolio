@@ -52,7 +52,7 @@ const IndexPage = () => (
 
           {/* TODO: Add padding to the titles of the cards */}
           <div className="row">
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
                   href="https://github.com/Team-TDD"
@@ -74,7 +74,7 @@ const IndexPage = () => (
                   <p>Backend CLI Based Crud application</p>
                 </header>
               </article>
-            </div>
+            </div> */}
 
             <div className="col-4 col-12-mobile">
               <article className="item">
