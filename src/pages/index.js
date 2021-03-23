@@ -29,7 +29,7 @@ const IndexPage = () => (
               <br />
               Software developer
             </h2>
-            <p>Check out my work below.</p>
+            <p>Below are a couple of projects that I have been working on.</p>
           </header>
 
           <footer>
@@ -45,13 +45,10 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio and Resume</h2>
+            <h2>Portfolio</h2>
           </header>
 
-          <p>
-            Please click on the below images to be taken to their corresponding
-            github repositories.
-          </p>
+          {/* <p>Below are a couple of projects that I have been working on.</p> */}
 
           {/* TODO: Add padding to the titles of the cards */}
           <div className="row">
@@ -174,7 +171,7 @@ const IndexPage = () => (
             care for my pain.
           </p>
 
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -189,7 +186,7 @@ const IndexPage = () => (
                 <input type="submit" value="Send Message" />
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </section>
     </div>
