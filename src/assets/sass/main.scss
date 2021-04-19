@@ -628,8 +628,8 @@ button,
   border-radius: 0.35em;
   color: #fff !important;
   text-decoration: none;
-  padding: 0.75em 2.5em 0.75em 2.5em;
-  background-color: #8ebebc;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  background-color: #8ebebcbb;
   border: 0;
   cursor: pointer;
   @include vendor(
@@ -863,7 +863,7 @@ button,
 
     &.dark {
       color: #ddd;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(255, 255, 255, 0.879);
 
       h2,
       h3,
