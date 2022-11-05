@@ -3,11 +3,13 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
-
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
+
+import bortelShop from '../assets/images/bortel-shop.jpg';
+import xdr from '../assets/images/xdr.jpg';
+import ransomwareMitigation from '../assets/images/ransomware-mitigation.jpg';
+import incidentResponse from '../assets/images/incident-response.jpg';
+import surfer from '../assets/images/surfer.jpg';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -48,34 +50,8 @@ const IndexPage = () => (
             <h2>Portfolio</h2>
           </header>
 
-          {/* <p>Below are a couple of projects that I have been working on.</p> */}
-
-          {/* TODO: Add padding to the titles of the cards */}
           <div className="row">
-            {/* <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a
-                  href="https://github.com/Team-TDD"
-                  className="image fit"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={pic2} alt="" />
-                </a>
-                <header>
-                  <a
-                    href="https://github.com/Team-TDD"
-                    alt="Github Repo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <h3>Haggle</h3>
-                  </a>
-                  <p>Backend CLI Based Crud application</p>
-                </header>
-              </article>
-            </div> */}
-
+            {/* Project 1 */}
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
@@ -85,38 +61,71 @@ const IndexPage = () => (
                   rel="noreferrer"
                   className="image fit"
                 >
-                  <img src={pic3} alt="bortel-shop.jpg" />
-                </a>
-                <header>
-                  {/* TODO: add: fullstack crud application --> Add button for a module */}
-                  <a
-                    href="https://github.com/Chris-Bortel-401-advanced-javascript/bortel-shop"
-                    alt="Github Repo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <img src={bortelShop} alt="bortel-shop.jpg" />
+                  <header>
                     <h3>Bortel Shop</h3>
-                  </a>
-                  <p>Fullstack Crud Application</p>
-                </header>
+                    <p>Fullstack Crud Application</p>
+                  </header>
+                </a>
               </article>
             </div>
 
-            {/* TODO: add picture and like of my resume */}
-            {/* <div className="col-4 col-12-mobile">
+            {/* Project 2 */}
+            <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
-                  href="https://github.com/301-MRCD/301-final-project"
-                  className="image fit"
+                  href="https://www.extrahop.com/solutions/security/xdr/"
+                  alt=""
                   target="_blank"
+                  rel="noreferrer"
+                  className="image fit"
                 >
-                  <img src={pic3} alt="" />
+                  <img src={xdr} alt="Screenshot of ExtraHop XDR page" />
+                  <header>
+                    <h3>Strategic XDR</h3>
+                  </header>
                 </a>
-                <header>
-                  <h3>Resume</h3>
-                </header>
               </article>
-            </div> */}
+            </div>
+
+            {/* Project 3 */}
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a
+                  href="https://www.extrahop.com/solutions/security/ransomware-prevention/"
+                  alt=""
+                  target="_blank"
+                  rel="noreferrer"
+                  className="image fit"
+                >
+                  <img
+                    src={ransomwareMitigation}
+                    alt="Screenshot of ExtraHop Ransomware Mitigation page"
+                  />
+                  <header>
+                    <h3>Ransomware Mitigation</h3>
+                  </header>
+                </a>
+              </article>
+            </div>
+
+            {/* Project 4 */}
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a
+                  href="https://www.extrahop.com/products/services/incident-response-service/"
+                  alt=""
+                  target="_blank"
+                  rel="noreferrer"
+                  className="image fit"
+                >
+                  <img src={incidentResponse} alt="bortel-shop.jpg" />
+                  <header>
+                    <h3>Incident Response</h3>
+                  </header>
+                </a>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -128,7 +137,7 @@ const IndexPage = () => (
           </header>
 
           <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
+            <img src={surfer} alt="" />
           </a>
           {/* TODO: Needs revisions, I really dislike the way that the text is justified*/}
           <p>
