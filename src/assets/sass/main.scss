@@ -210,7 +210,8 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  // font-family: 'Source Sans Pro', sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -230,7 +231,8 @@ body {
 input,
 textarea,
 select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  // font-family: 'Source Sans Pro', sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -656,14 +658,24 @@ button,
   box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
 
+  a > img {
+    border-radius: 5px 5px 0 0;
+  }
+
   header {
     background: #fff;
     margin: 0;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 1em 0.8em;
     font-size: 0.8em;
+    border-radius: 0 0 5px 5px;
 
     h3 {
       font-size: 1em;
+    }
+
+    p {
+      margin-top: initial;
+      font-size: 0.9em;
     }
   }
 }
@@ -861,6 +873,10 @@ button,
     text-align: left;
     background-image: url('../images/overlay.png');
 
+    header.project {
+      padding-left: 15px;
+    }
+
     &.dark {
       color: #ddd;
       color: rgba(255, 255, 255, 0.879);
@@ -905,6 +921,10 @@ button,
     //About me
     &.three {
       background-color: #ecf1f1;
+
+      p {
+        margin-bottom: 1em;
+      }
     }
 
     &.four {
