@@ -5,7 +5,7 @@ export default function Footer({ title, heading, avatar, resume }) {
   return (
     <div id="logo">
       <Link
-        to="https://docs.google.com/document/d/e/2PACX-1vT_bSQqPoC682ck9yTf7FSO4Ku-dc1lY_VYGM4YRSxgApwndxXxJOSXaZlckv9M7fzHpExQMXoH13dI/pub"
+        to="https://docs.google.com/document/d/e/2PACX-1vQ72IxRd1HA-FDE7Oso0IZo3DeyK7k_Fds67MBF-LpaVcb7wyf6fOU2NvQTcqoY0gktWmr0gg5oU-KZ/pub"
         target="_blank"
       >
         <span className="image avatar48">

@@ -62,7 +62,7 @@ const IndexPage = () => (
                   className="image fit"
                 >
                   <img src={bortelShop} alt="bortel-shop.jpg" />
-                  <header>
+                  <header className="project">
                     <h3>Bortel Shop</h3>
                     <p>Fullstack Crud Application</p>
                   </header>
@@ -81,7 +81,7 @@ const IndexPage = () => (
                   className="image fit"
                 >
                   <img src={xdr} alt="Screenshot of ExtraHop XDR page" />
-                  <header>
+                  <header className="project">
                     <h3>Strategic XDR</h3>
                   </header>
                 </a>
@@ -102,7 +102,7 @@ const IndexPage = () => (
                     src={ransomwareMitigation}
                     alt="Screenshot of ExtraHop Ransomware Mitigation page"
                   />
-                  <header>
+                  <header className="project">
                     <h3>Ransomware Mitigation</h3>
                   </header>
                 </a>
@@ -120,7 +120,7 @@ const IndexPage = () => (
                   className="image fit"
                 >
                   <img src={incidentResponse} alt="bortel-shop.jpg" />
-                  <header>
+                  <header className="project">
                     <h3>Incident Response</h3>
                   </header>
                 </a>
@@ -141,27 +141,49 @@ const IndexPage = () => (
           </a>
           {/* TODO: Needs revisions, I really dislike the way that the text is justified*/}
           <p>
-            I am a full stack JavaScript software developer based in Seattle,
-            WA. As a graduate of Code Fellows’ intensive software development
-            program and the University of Washington’s full stack JS web
-            development bootcamp, I strive to build innovative software with a
-            meaningful purpose.
+            I am a frontend JavaScript software developer based in Seattle, WA.
+          </p>
+          <p>
+            At my most recent position as a contract web developer at ExtraHop,
+            I managed, developed, and worked on multiple high value, visible
+            projects and campaigns concurrently across various organizational
+            priorities and timelines. This has given me the opportunity to
+            improve my technical skills, working in a stack of various languages
+            (JavaScript, HTML5, CSS3, SCSS, JSON, Markdown, Hugo Templating), as
+            well as practice communicating with stakeholders the technical
+            options and constraints on a project. Working with designers to
+            build out complicated pages based on detailed compositions has been
+            particularly enjoyable and challenging. Learning how to talk shop
+            with colleagues from design, marketing, content, and SEO that may
+            not have a technical background has allowed for a greater
+            understanding of their needs and an opportunity to be proactive in
+            production to identify possible blockers and find ways to improve
+            user experience.
+          </p>
+          <p>
+            During my time at Code Fellows, as a student, I studied full-stack
+            JavaScript development. My focus was on the various Node APIs
+            including authentication, socket.io event driven applications, and
+            front-ends written in React. Pair programming was an important part
+            of this program and taught the skills to resolve complex problems
+            with peers. interpret the problem and solve it in code. After being
+            a student, I was fortunate to become a teaching assistant where I
+            was then able to apply my understanding of JavaScript and problem
+            solving to help my students tackle their own problems. Both of these
+            roles allowed me to develop my technical, organizational, and
+            leadership skills by working as part of a team of people from all
+            sorts of backgrounds.
+          </p>
+          <p>
+            My experience working with diverse populations, working across teams
+            to develop and execute complicated plans, my love for creating
+            beautiful scalable web experiences, and my eagerness to learn make
+            me a great fit for this position. Thank you very much for the time
+            to read over this. I invite you to look over my projects, checkout
+            my resume, and shoot me an email.
             <br />
-            <br />
-            My professional career began in special education, where I managed a
-            classroom and the curriculum of ten students. I helped to develop
-            strategies and response plans to provide the best services and
-            solutions for students and the families I worked with, setting and
-            achieving goals that benefitted all involved. That kind of growth
-            mentality is what I enjoy about software development. Being able to
-            see the progress made over months of planning and execution is
-            something that excited me while working in public schools, and
-            drives me forward in the field of software development. I strive to
-            make any project that I work on better than what I started with.
-            <br />
-            <br />
-            In my spare time, I like to surf, cycle, develop my amateur
-            woodworking skills, and hang out with my wife and dog.
+            In my spare time, I like to surf, cycle, and hang out with my wife
+            and dog.
           </p>
         </div>
       </section>
@@ -173,9 +195,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            I cannot wait to start a conversation about what we can build
-            together. I can be reached via LinkedIn and email. Thank you for
-            your interest!
+            I look forward to chatting with you soon. I can be reached via
+            LinkedIn and email. Thank you for your interest!
           </p>
 
           {/* <form method="post" action="#">
