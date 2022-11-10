@@ -29,7 +29,7 @@ const IndexPage = () => (
             <h2 className="alt">
               <strong>Chris Bortel</strong>
               <br />
-              Software developer
+              <span>Software Developer</span>
             </h2>
             <p>Below are a couple of projects that I have been working on</p>
           </header>
@@ -61,7 +61,9 @@ const IndexPage = () => (
                   rel="noreferrer"
                   className="image fit"
                 >
-                  <img src={bortelShop} alt="bortel-shop.jpg" />
+                  <div className="image-container">
+                    <img src={bortelShop} alt="bortel-shop.jpg" />
+                  </div>
                   <header className="project">
                     <h3>Bortel Shop</h3>
                     <p>Fullstack Crud Application</p>
@@ -80,7 +82,9 @@ const IndexPage = () => (
                   rel="noreferrer"
                   className="image fit"
                 >
-                  <img src={xdr} alt="Screenshot of ExtraHop XDR page" />
+                  <div className="image-container">
+                    <img src={xdr} alt="Screenshot of ExtraHop XDR page" />
+                  </div>
                   <header className="project">
                     <h3>Strategic XDR</h3>
                   </header>
@@ -98,10 +102,12 @@ const IndexPage = () => (
                   rel="noreferrer"
                   className="image fit"
                 >
-                  <img
-                    src={ransomwareMitigation}
-                    alt="Screenshot of ExtraHop Ransomware Mitigation page"
-                  />
+                  <div className="image-container">
+                    <img
+                      src={ransomwareMitigation}
+                      alt="Screenshot of ExtraHop Ransomware Mitigation page"
+                    />
+                  </div>
                   <header className="project">
                     <h3>Ransomware Mitigation</h3>
                   </header>
@@ -119,7 +125,9 @@ const IndexPage = () => (
                   rel="noreferrer"
                   className="image fit"
                 >
-                  <img src={incidentResponse} alt="bortel-shop.jpg" />
+                  <div className="image-container">
+                    <img src={incidentResponse} alt="bortel-shop.jpg" />
+                  </div>
                   <header className="project">
                     <h3>Incident Response</h3>
                   </header>
