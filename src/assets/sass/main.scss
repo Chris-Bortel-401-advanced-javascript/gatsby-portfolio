@@ -269,10 +269,16 @@ h2 {
   letter-spacing: -1px;
 
   &.alt {
-    color: #888;
-
+    color: #666;
+    font-size: 3em;
+    // color: #888;
+    line-height: 1;
     strong {
       color: #666;
+    }
+
+    span {
+      font-size: 0.6em;
     }
   }
 }
@@ -445,6 +451,7 @@ article {
     img {
       width: 48px;
       height: 48px;
+      border-radius: 5px;
     }
   }
 
@@ -457,6 +464,10 @@ article {
     display: block;
     width: 100%;
     margin: 0 0 2em 0;
+
+    img {
+      border-radius: 8px;
+    }
   }
 
   &.left {
@@ -657,9 +668,14 @@ button,
 .item {
   box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
+  border-radius: 8px;
+  div.image-container {
+    max-height: 212.76px;
+    overflow: hidden;
 
-  a > img {
-    border-radius: 5px 5px 0 0;
+    img {
+      border-radius: 8px 8px 0 0;
+    }
   }
 
   header {
@@ -667,7 +683,7 @@ button,
     margin: 0;
     padding: 1em 0 1em 0.8em;
     font-size: 0.8em;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 8px 8px;
 
     h3 {
       font-size: 1em;
@@ -917,6 +933,11 @@ button,
 
     &.two {
       background-color: #f5fafa;
+
+      // div.image-container {
+      //   max-height: 212.76px;
+      //   overflow: hidden;
+      // }
     }
     //About me
     &.three {
